@@ -8,7 +8,6 @@
     <groupId>io.github.didiez</groupId>
     <artifactId>sgi-starter-parent</artifactId>
     <version>0.1.1-SNAPSHOT</version>
-    <relativePath/>
   </parent>
 
   <groupId>io.github.didiez</groupId>
@@ -43,6 +42,19 @@
     <!-- Manifest data for the Apache Maven JAR Plugin -->
     <manifest.name>org/crue/hercules/sgi/framework</manifest.name>
   </properties>
+
+  <repositories>
+    <repository>
+      <id>snapshots-repo</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <dependencies>
     <!--
