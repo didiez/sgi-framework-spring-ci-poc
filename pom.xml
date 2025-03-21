@@ -8,6 +8,7 @@
     <groupId>io.github.didiez</groupId>
     <artifactId>sgi-starter-parent</artifactId>
     <version>0.1.1-SNAPSHOT</version>
+    <relativePath/>
   </parent>
 
   <groupId>io.github.didiez</groupId>
