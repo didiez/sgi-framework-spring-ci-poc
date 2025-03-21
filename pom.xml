@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.crue.hercules.sgi</groupId>
+    <groupId>io.github.didiez</groupId>
     <artifactId>sgi-starter-parent</artifactId>
     <version>0.1.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.crue.hercules.sgi</groupId>
+  <groupId>io.github.didiez</groupId>
   <artifactId>sgi-framework-spring</artifactId>
   <version>0.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
